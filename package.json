@@ -1,0 +1,22 @@
+{
+	"name": "multi-fact",
+	"version": "1.0.0",
+	"description": "Map an iterable into a factory function",
+	"main": "multi-fact.js",
+	"scripts": {
+		"test": "node .test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://archive.voodoowarez.com/multi-fact"
+	},
+	"author": "rektide de la faye",
+	"license": "X",
+	"dependencies": {
+		"es6-promisify": "^3.0.0",
+		"promise-flat": "^1.0.0"
+	},
+	"devDependencies": {
+		"tape": "^4.4.0"
+	}
+}
